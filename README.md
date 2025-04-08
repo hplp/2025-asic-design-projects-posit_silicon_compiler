@@ -1,12 +1,11 @@
 # Project_Template
 
 ## Team Name: 
-(Enter your team name from Canvas)
+Posit Silicon Compiler
 
 ## Team Members:
-- Student 1
-- Student 2
-- Student 3
+Melika Morsali (qfc2zn)
+Hasantha Ekanayake (uyq6nu)
 
 ## Project Title:
 (Enter your project title - be creative)
