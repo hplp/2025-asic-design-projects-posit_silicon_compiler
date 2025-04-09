@@ -4,14 +4,18 @@
 Posit Silicon Compiler
 
 ## Team Members:
-Melika Morsali (qfc2zn)
-Hasantha Ekanayake (uyq6nu)
+- Melika Morsali (qfc2zn)
+- Hasantha Ekanayake (uyq6nu)
 
 ## Project Title:
-(Enter your project title - be creative)
+Posit - Index-based computation of real-number multiplication with SiliconCompiler
 
 ## Project Description:
-(Provide a short description of the problem you're addressing)
+We propose to design and implement a Multiply-Accumulate (MAC) operation where the
+activation inputs are in 16-bit IEEE floating-point format (FP16), and the weights are in 4-
+bit posit (Posit4) format with SiliconCompiler. SiliconCompiler is an open-source framework
+that automates the translation from source code to silicon. We aim to use SiliconCompiler
+to compile the Verilog RTL design of FP16-Posit4 MAC to a GDS file.
 
 ## Key Objectives:
 - Objective 1
