@@ -44,7 +44,7 @@ to compile the Verilog RTL design of FP16-Posit4 MAC to a GDS file.
 
 | **Week**     | **Phase**                          | **Tasks / Deliverables**                                                                 |
 |--------------|------------------------------------|-------------------------------------------------------------------------------------------|
-| Week 1     | Project Setup & Research         | Finalize project scope, review Posit format and MAC designs, set up dev environment, install SiliconCompiler |
+| Week 1-2     | Project Setup & Research         | Finalize project scope, review Posit format and MAC designs, set up dev environment, install SiliconCompiler |
 | Week 2-3    | FP16-Posit4 Multiplier Design    | Implement and test the Posit4 decoder and FP16-Posit4 multiplication module in Verilog    |
 | Week 2-3    | Multiplier Verification          | Develop Verilog testbenches and validate functional correctness of the multiplier         |
 | Week 2-3     | Accumulator Module               | Design and simulate the FP16-compatible accumulator module and integrate it with the multiplier |
@@ -52,4 +52,4 @@ to compile the Verilog RTL design of FP16-Posit4 MAC to a GDS file.
 | Week 4-5      | RTL Finalization                | Finalize and verify the complete MAC module with testbenches                              |
 | Week 4-5  | SiliconCompiler Integration      | Set up the synthesis flow, configure PDK and toolchain, compile RTL to GDS               |
 | Week 4-5      | Evaluation & Analysis           | Analyze timing, area, and power of the GDS output; iterate if needed                      |
-| Week 6      | Final Report & Presentation      | Prepare final documentation, presentation slides, and demo/report submission              |
+| Week 6-7      | Final Report & Presentation      | Prepare final documentation, presentation slides, and demo/report submission              |
