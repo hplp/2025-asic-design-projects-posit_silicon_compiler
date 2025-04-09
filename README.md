@@ -26,7 +26,9 @@ to compile the Verilog RTL design of FP16-Posit4 MAC to a GDS file.
 - Objective 3 - Leverage SiliconCompiler to automate the synthesis and physical design process, compiling the RTL implementation into a GDS file for fabrication readiness.
 
 ## Technology Stack:
-(List the hardware platform, software tools, language(s), etc. you plan to use)
+ - Hardware Platform: Local workstation or server 
+ - Software Tools: SiliconCompiler, Verilog Simulation Tool
+ - Languages: Verilog HDL, Python, Shell scripting / Makefiles 
 
 ## Expected Outcomes:
 A fully functional and verified FP16-Posit4 MAC unit, simulated and tested using Verilog testbenches.
