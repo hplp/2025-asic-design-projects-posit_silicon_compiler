@@ -18,15 +18,22 @@ that automates the translation from source code to silicon. We aim to use Silico
 to compile the Verilog RTL design of FP16-Posit4 MAC to a GDS file.
 
 ## Key Objectives:
-- Objective 1
-- Objective 2
-- Objective 3
+
+- Objective 1 - Design a Multiply-Accumulate (MAC) Unit using FP16 activations and Posit4 weights to explore efficiency gains in numerical computing for ML accelerators.
+
+- Objective 2 - Integrate and validate decoding, multiplication, and accumulation stages in Verilog, ensuring functional correctness and numerical accuracy.
+
+- Objective 3 - Leverage SiliconCompiler to automate the synthesis and physical design process, compiling the RTL implementation into a GDS file for fabrication readiness.
 
 ## Technology Stack:
 (List the hardware platform, software tools, language(s), etc. you plan to use)
 
 ## Expected Outcomes:
-(Describe what you expect to deliver at the end of the project)
+A fully functional and verified FP16-Posit4 MAC unit, simulated and tested using Verilog testbenches.
+
+A hardware-optimized RTL design, synthesized and placed-and-routed using SiliconCompiler with analysis of area, timing, and power.
+
+A manufacturable GDS file output, demonstrating the full digital design flow from high-level numerical representation to silicon-level layout.
 
 ## Tasks:
 (Describe the tasks that need to be completed. Assign students to tasks)
