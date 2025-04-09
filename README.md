@@ -41,13 +41,15 @@ to compile the Verilog RTL design of FP16-Posit4 MAC to a GDS file.
 (Describe the tasks that need to be completed. Assign students to tasks)
 
 ## Timeline:
-Week	Phase	Tasks / Deliverables
-Week 1–2	🚀 Project Setup & Research	Finalize project scope, review Posit format and MAC designs, set up development environment, install SiliconCompiler
-Week 3–4	⚙️ FP16-Posit4 Multiplier Design	Implement and test the Posit4 decoder and FP16-Posit4 multiplication module in Verilog
-Week 5–6	✅ Multiplier Verification	Develop Verilog testbenches and validate functional correctness of the multiplier
-Week 7–8	➕ Accumulator Module	Design and simulate the FP16-compatible accumulator module and integrate it with the multiplier
-Week 9	🔗 MAC Integration	Combine multiplier and accumulator into a full MAC unit; begin end-to-end simulation
-Week 10	🧪 RTL Finalization	Finalize and verify the complete MAC module with testbenches
-Week 11–12	🏗️ SiliconCompiler Integration	Set up the synthesis flow, configure PDK and toolchain, compile RTL to GDS
-Week 13	📊 Evaluation & Analysis	Analyze timing, area, and power of the GDS output; iterate if needed
-Week 14	📝 Final Report & Presentation	Prepare final documentation, presentation slides, and demo/report submission
+
+| **Week**     | **Phase**                          | **Tasks / Deliverables**                                                                 |
+|--------------|------------------------------------|-------------------------------------------------------------------------------------------|
+| Week 1     | Project Setup & Research         | Finalize project scope, review Posit format and MAC designs, set up dev environment, install SiliconCompiler |
+| Week 2-3    | FP16-Posit4 Multiplier Design    | Implement and test the Posit4 decoder and FP16-Posit4 multiplication module in Verilog    |
+| Week 2-3    | Multiplier Verification          | Develop Verilog testbenches and validate functional correctness of the multiplier         |
+| Week 2-3     | Accumulator Module               | Design and simulate the FP16-compatible accumulator module and integrate it with the multiplier |
+| Week 2-3       | MAC Integration                 | Combine multiplier and accumulator into a full MAC unit; begin end-to-end simulation      |
+| Week 4-5      | RTL Finalization                | Finalize and verify the complete MAC module with testbenches                              |
+| Week 4-5  | SiliconCompiler Integration      | Set up the synthesis flow, configure PDK and toolchain, compile RTL to GDS               |
+| Week 4-5      | Evaluation & Analysis           | Analyze timing, area, and power of the GDS output; iterate if needed                      |
+| Week 6      | Final Report & Presentation      | Prepare final documentation, presentation slides, and demo/report submission              |
