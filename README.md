@@ -39,11 +39,11 @@ to compile the Verilog RTL design of FP16-Posit4 MAC to a GDS file.
 
 ## Tasks:
 
-Implement and test the Posit4 multiplication module in Verilog (Melika)
-Implement and test the Posit4 Accumulator module in Verilog (Hasantha)
-Integrate the multiplier and accumulator modules (Melika and Hasantha)
-SiliconCompiler Integration and GDS Generation (Melika and Hasantha)
-Performance evalustion of MAC
+- Implement and test the Posit4 multiplication module in Verilog (Melika)
+- Implement and test the Posit4 Accumulator module in Verilog (Hasantha)
+- Integrate the multiplier and accumulator modules (Melika and Hasantha)
+- SiliconCompiler Integration and GDS Generation (Melika and Hasantha)
+- Performance evalustion of MAC
 
 ## Timeline:
 
