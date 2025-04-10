@@ -39,20 +39,19 @@ to compile the Verilog RTL design of FP16-Posit4 MAC to a GDS file.
 
 ## Tasks:
 
-
 Implement and test the Posit4 multiplication module in Verilog (Melika)
 Implement and test the Posit4 Accumulator module in Verilog (Hasantha)
 Integrate the multiplier and accumulator modules (Melika and Hasantha)
-SiliconCompiler Integration and GDS Generation and performance evalustion (Melika and Hasantha)
+SiliconCompiler Integration and GDS Generation (Melika and Hasantha)
+Performance evalustion of MAC
 
 ## Timeline:
 
 | **Week**     | **Phase**                          | **Tasks / Deliverables**                                                                 |
 |--------------|------------------------------------|-------------------------------------------------------------------------------------------|
-| Week 1-2     | Project Setup & Research         | Finalize project scope, review Posit format and MAC designs, set up dev environment, install SiliconCompiler |
-| Week 2-3    | FP16-Posit4 Multiplier Design    | Implement and test the Posit4 decoder and FP16-Posit4 multiplication module in Verilog    |
-| Week 2-3    | Multiplier Verification          | Develop Verilog testbenches and validate functional correctness of the multiplier         |
-| Week 2-3     | Accumulator Module               | Design and simulate the FP16-compatible accumulator module and integrate it with the multiplier |
+| Week 1-2     | Project Setup & Research         | Initiate the project scope, review Posit format and MAC designs, set up dev environment, install SiliconCompiler |
+| Week 2-3    |  Multiplier Design    | Implement and test the FP16-Posit4 multiplication module in Verilog    |
+| Week 2-3     | Accumulator Module               | Implement and test the FP16-compatible accumulator module in Verilog                        |
 | Week 2-3       | MAC Integration                 | Combine multiplier and accumulator into a full MAC unit; begin end-to-end simulation      |
 | Week 4-5      | RTL Finalization                | Finalize and verify the complete MAC module with testbenches                              |
 | Week 4-5  | SiliconCompiler Integration      | Set up the synthesis flow, configure PDK and toolchain, compile RTL to GDS               |
