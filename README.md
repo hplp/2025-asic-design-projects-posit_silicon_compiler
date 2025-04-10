@@ -38,7 +38,12 @@ to compile the Verilog RTL design of FP16-Posit4 MAC to a GDS file.
 3. A manufacturable GDS file output, demonstrating the full digital design flow from high-level numerical representation to silicon-level layout.
 
 ## Tasks:
-(Describe the tasks that need to be completed. Assign students to tasks)
+
+
+Implement and test the Posit4 multiplication module in Verilog (Melika)
+Implement and test the Posit4 Accumulator module in Verilog (Hasantha)
+Integrate the multiplier and accumulator modules (Melika and Hasantha)
+SiliconCompiler Integration and GDS Generation and performance evalustion (Melika and Hasantha)
 
 ## Timeline:
 
