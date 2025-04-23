@@ -22,3 +22,9 @@
 
 
 ## SiliconCompiler Integration and GDS Generation 
+
+###Installation https://docs.siliconcompiler.com/en/latest/user_guide/installation.html#installation
+
+- Installing Python
+  
+  Before installing the SiliconCompiler package you will need to set up a Python environment. 
