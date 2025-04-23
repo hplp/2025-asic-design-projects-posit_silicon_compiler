@@ -21,7 +21,7 @@
 
 
 
-## SiliconCompiler Integration and GDS Generation 
+## SiliconCompiler Integration
 
 ### Installation 
 https://docs.siliconcompiler.com/en/latest/user_guide/installation.html#installation
