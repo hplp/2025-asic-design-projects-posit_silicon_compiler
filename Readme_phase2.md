@@ -34,7 +34,7 @@ https://docs.siliconcompiler.com/en/latest/user_guide/installation.html#installa
 
   After you’ve got the python dependencies installed, you will need to install SiliconCompiler.
 
-- ASIC Demo
+### ASIC Demo
 
   Now that you have installed SiliconCompiler, you can test your installation by running a quick demo through the ASIC design flow in the cloud.
 
@@ -47,4 +47,4 @@ This command generates the design files for the Verilog module Heartbeat.
   <img src="Images/heartbeat.png" alt="heartbeat" width="50%">
 </p>
 
-- FP-Posit Mac
+### FP-Posit Mac
