@@ -41,3 +41,4 @@ https://docs.siliconcompiler.com/en/latest/user_guide/installation.html#installa
 ```bash
 sc -target asic_demo -remote
 ```
+
