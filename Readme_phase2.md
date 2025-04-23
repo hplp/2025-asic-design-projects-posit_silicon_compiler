@@ -44,5 +44,7 @@ sc -target asic_demo -remote
 This is generating the design files for the verilog code "Heartbeat".
 
   <p align="center">
-  <img src="Images/heartbeat.png" alt="heartbeat" width="80%">
+  <img src="Images/heartbeat.png" alt="heartbeat" width="50%">
 </p>
+
+- FP-Posit Mac
