@@ -41,7 +41,7 @@ https://docs.siliconcompiler.com/en/latest/user_guide/installation.html#installa
 ```bash
 sc -target asic_demo -remote
 ```
-This is generating the design files for the verilog code "Heartbeat".
+This command generates the design files for the Verilog module Heartbeat.
 
   <p align="center">
   <img src="Images/heartbeat.png" alt="heartbeat" width="50%">
