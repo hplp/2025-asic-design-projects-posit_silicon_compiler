@@ -38,4 +38,6 @@ https://docs.siliconcompiler.com/en/latest/user_guide/installation.html#installa
 
   Now that you have installed SiliconCompiler, you can test your installation by running a quick demo through the ASIC design flow in the cloud.
 
-  'sc -target asic_demo -remote'
+```bash
+sc -target asic_demo -remote
+```
