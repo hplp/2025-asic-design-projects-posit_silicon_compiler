@@ -49,12 +49,12 @@ This command generates the design files for the Verilog module Heartbeat.
 
 ### FP-Posit Multiplication
 
-Design flow
+Design flow - FP-Posit Multiplication
   <p align="center">
   <img src="Images/design_flow_mul.png" alt="design_flow" width="80%">
 </p>
 
-Summary Report 
+Summary Report - FP-Posit Multiplication
 
   <p align="center">
   <img src="Images/Summary1_mul.png" alt="Summary" width="80%">
@@ -65,19 +65,19 @@ Summary Report
 </p>
 
 
-Chip Layout
+Chip Layout - FP-Posit Multiplication
   <p align="center">
   <img src="Images/fp_posit4_mul.png" alt="fp_posit4_mul" width="50%">
 </p>
 
 ### FP-Posit Accumulator
 
-Design flow
+Design flow - FP-Posit Accumulator
   <p align="center">
   <img src="Images/design_flow_acc.png" alt="design_flow" width="80%">
 </p>
 
-Summary Report 
+Summary Report - FP-Posit Accumulator
 
   <p align="center">
   <img src="Images/Summary1_acc.png" alt="Summary" width="80%">
@@ -88,7 +88,7 @@ Summary Report
 </p>
 
 
-Chip Layout
+Chip Layout - FP-Posit Accumulator
   <p align="center">
   <img src="Images/fp_posit4_mul.png" alt="fp_posit4_mul" width="50%">
 </p>
