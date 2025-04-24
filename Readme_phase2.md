@@ -28,15 +28,15 @@ https://docs.siliconcompiler.com/en/latest/user_guide/installation.html#installa
 
 - Installing Python
   
-  Before installing the SiliconCompiler package you will need to set up a Python environment. 
+  Before installing the SiliconCompiler package, the Python environment need to set up. 
 
 - Installing SiliconCompiler
 
-  After you’ve got the python dependencies installed, you will need to install SiliconCompiler.
+  After the python dependencies have installed, SiliconCompiler need to install.
 
 ### ASIC Demo
 
-  Now that you have installed SiliconCompiler, you can test your installation by running a quick demo through the ASIC design flow in the cloud.
+  Now that SiliconCompiler has installed, the installation can be tested by running a quick demo through the ASIC design flow in the cloud.
 
 ```bash
 sc -target asic_demo -remote
