@@ -93,5 +93,28 @@ Chip Layout - FP-Posit Accumulator
   <img src="Images/fp_posit4_mul.png" alt="fp_posit4_mul" width="50%">
 </p>
 
+### FP-Posit MAC
+
+Design flow - FP-Posit MAC
+  <p align="center">
+  <img src="Images/design_flow_mac.png" alt="design_flow" width="80%">
+</p>
+
+Summary Report - FP-Posit MAC
+
+  <p align="center">
+  <img src="Images/Summary1_mac.png" alt="Summary" width="80%">
+</p>
+
+  <p align="center">
+  <img src="Images/Summary2_mac.png" alt="Summary1_mul.png" width="80%">
+</p>
+
+
+Chip Layout - FP-Posit MAC
+  <p align="center">
+  <img src="Images/fp_posit4_mac.png" alt="fp_posit4_mul" width="50%">
+</p>
+
 ## Challenges
 Working on integrating the FP-Posit MAC unit within SiliconCompiler and developing appropriate constraint files for successful synthesis.
