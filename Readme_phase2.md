@@ -50,13 +50,13 @@ This command generates the design files for the Verilog module Heartbeat.
 ### FP-Posit Multiplication
 
   <p align="center">
-  <img src="Images/FP_Posit4.png" alt="heartbeat" width="50%">
+  <img src="Images/fp_posit4_mul.png" alt="fp_posit4_mul" width="50%">
 </p>
 
 ### FP-Posit Accumulator
 
   <p align="center">
-  <img src="Images/heartbeat.png" alt="heartbeat" width="50%">
+  <img src="Images/fp_posit4_mac.png" alt="fp_posit4_mac" width="50%">
 </p>
 
 ## Challenges
