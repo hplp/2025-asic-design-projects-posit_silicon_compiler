@@ -47,5 +47,5 @@ This command generates the design files for the Verilog module Heartbeat.
   <img src="Images/heartbeat.png" alt="heartbeat" width="50%">
 </p>
 
-## Chalneges
-Working on integrating the FP-Posit MAC unit within SiliconCompiler and developing appropriate constraint files for the design.
+## Challenges
+Working on integrating the FP-Posit MAC unit within SiliconCompiler and developing appropriate constraint files for successful synthesis.
