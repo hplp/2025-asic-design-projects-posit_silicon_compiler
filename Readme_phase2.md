@@ -49,6 +49,23 @@ This command generates the design files for the Verilog module Heartbeat.
 
 ### FP-Posit Multiplication
 
+Design flow
+  <p align="center">
+  <img src="Images/Design_flow_mul.png" alt="design_flow" width="50%">
+</p>
+
+Summary Report 
+
+Design flow
+  <p align="center">
+  <img src="Images/Summary1_mul.png" alt="Summary" width="50%">
+</p>
+
+Design flow
+  <p align="center">
+  <img src="Images/Summary2_mul.png" alt="Summary1_mul.png" width="50%">
+</p>
+
   <p align="center">
   <img src="Images/fp_posit4_mul.png" alt="fp_posit4_mul" width="50%">
 </p>
