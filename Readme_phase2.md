@@ -72,6 +72,23 @@ Chip Layout
 
 ### FP-Posit Accumulator
 
+Design flow
+  <p align="center">
+  <img src="Images/design_flow_acc.png" alt="design_flow" width="80%">
+</p>
+
+Summary Report 
+
+  <p align="center">
+  <img src="Images/Summary1_acc.png" alt="Summary" width="80%">
+</p>
+
+  <p align="center">
+  <img src="Images/Summary2_acc.png" alt="Summary1_mul.png" width="80%">
+</p>
+
+
+Chip Layout
   <p align="center">
   <img src="Images/fp_posit4_mul.png" alt="fp_posit4_mul" width="50%">
 </p>
