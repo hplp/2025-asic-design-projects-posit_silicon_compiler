@@ -8,7 +8,12 @@ Posit Silicon Compiler
 - Hasantha Ekanayake (uyq6nu)
 
 
-## Project Description:
+## 1. Project Overview
+
+#### Project Title: Posit - Index-based Computation of Real Number Multiplication with SiliconCompiler  
+#### Repository URL: [GitHub Repository Link](https://github.com/hplp/2025-asic-design-projects-posit_silicon_compiler)
+
+Posit - Index-based Computation of Real Number Multiplication with SiliconCompiler
 We propose to design and implement a Multiply-Accumulate (MAC) operation where the
 activation inputs are in 16-bit IEEE floating-point format (FP16), and the weights are in 4-
 bit posit (Posit4) format with SiliconCompiler. SiliconCompiler is an open-source framework
