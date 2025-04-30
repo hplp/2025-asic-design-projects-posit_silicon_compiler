@@ -1,4 +1,4 @@
-# Project_Template
+# Posit - Index-based computation of real-number multiplication with SiliconCompiler
 
 ## Team Name: 
 Posit Silicon Compiler
@@ -7,8 +7,6 @@ Posit Silicon Compiler
 - Melika Morsali (qfc2zn)
 - Hasantha Ekanayake (uyq6nu)
 
-## Project Title:
-Posit - Index-based computation of real-number multiplication with SiliconCompiler
 
 ## Project Description:
 We propose to design and implement a Multiply-Accumulate (MAC) operation where the
