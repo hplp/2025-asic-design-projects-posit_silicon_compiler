@@ -1,4 +1,4 @@
-# Posit - Index-based Computation of Real-number Multiplication with SiliconCompiler
+# Posit - Index-based Computation of Real Number Multiplication with SiliconCompiler
 
 ## Team Name: 
 Posit Silicon Compiler
