@@ -41,9 +41,9 @@ to compile the Verilog RTL design of FP16-Posit4 MAC to a GDS file.
 
 ## 5. Tasks:
 
-#### **5.1 Implement and test the Posit4 multiplication module in Verilog 
-#### Implement and test the Posit4 Accumulator module in Verilog 
-- Integrate the multiplier and accumulator modules 
-- SiliconCompiler Integration and GDS Generation 
-- Performance evaluation of MAC 
+#### 5.1 Implement and test the Posit4 multiplication module in Verilog 
+#### 5.2 Implement and test the Posit4 Accumulator module in Verilog 
+#### 5.3 Integrate the multiplier and accumulator modules 
+#### 5.4 SiliconCompiler Integration and GDS Generation 
+#### 5.6 Performance evaluation of MAC 
 
