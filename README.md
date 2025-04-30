@@ -39,28 +39,28 @@ to compile the Verilog RTL design of FP16-Posit4 MAC to a GDS file.
 
 3. A manufacturable GDS file output, demonstrating the full digital design flow from high-level numerical representation to silicon-level layout.
 
-## 5. Tasks:
+## 5. Results:
 
-#### 5.1 Implement and test the Posit4 multiplication module in Verilog 
+#### 5.1 Implementation and test the Posit4 multiplication module in Verilog 
 - FP-Posit Multiplication Testbench Result (Implement and test the Posit4 multiplication module):
   <p align="center">
   <img src="Images/posit_mul.png" alt="fp_posit_mul" width="80%">
 </p>
 
-#### 5.2 Implement and test the Posit4 Accumulator module in Verilog 
+#### 5.2 Implementation and test the Posit4 Accumulator module in Verilog 
 - FP-Posit Accumulator Testbench Result (Implement and test the Posit4 Accumulator module):
   <p align="center">
   <img src="Images/posit_acc.png" alt="fp_posit_acc" width="80%">
 </p>
 
-#### 5.3 Integrate the multiplier and accumulator modules 
+#### 5.3 Integration of the multiplier and accumulator modules 
 - FP-Posit MAC Testbench Result (Integrate the multiplier and accumulator modules):
 
     <p align="center">
   <img src="Images/posit_mac.png" alt="fp_posit_mac" width="80%">
 </p>
 
-#### 5.4 SiliconCompiler Integration and GDS Generation 
+#### 5.4 Integration of the SiliconCompiler and Generation of GDS Files
 
 ## SiliconCompiler Integration
 
