@@ -49,33 +49,33 @@ to compile the Verilog RTL design of FP16-Posit4 MAC to a GDS file.
 
 ## 6. Results:
 
-#### 6.1 Implementation and test the Posit4 multiplication module in Verilog 
+### 6.1 Implementation and test the Posit4 multiplication module in Verilog 
 - FP-Posit Multiplication Testbench Result (Implement and test the Posit4 multiplication module):
   <p align="center">
   <img src="Images/posit_mul.png" alt="fp_posit_mul" width="80%">
 </p>
 
-#### 6.2 Implementation and test the Posit4 Accumulator module in Verilog 
+### 6.2 Implementation and test the Posit4 Accumulator module in Verilog 
 - FP-Posit Accumulator Testbench Result (Implement and test the Posit4 Accumulator module):
   <p align="center">
   <img src="Images/posit_acc.png" alt="fp_posit_acc" width="80%">
 </p>
 
-#### 6.3 Integration of the multiplier and accumulator modules 
+### 6.3 Integration of the multiplier and accumulator modules 
 - FP-Posit MAC Testbench Result (Integrate the multiplier and accumulator modules):
 
     <p align="center">
   <img src="Images/posit_mac.png" alt="fp_posit_mac" width="80%">
 </p>
 
-#### 6.4 Integration of the SiliconCompiler and Generation of GDS Files
+### 6.4 Integration of the SiliconCompiler and Generation of GDS Files
 
-## SiliconCompiler Integration
+## 7. SiliconCompiler Integration
 
   <img src="Images/sc_logo_with_text.png" alt="sc_logo" width="80%">
 
 
-### Installation 
+### 7.1 Installation 
 https://docs.siliconcompiler.com/en/latest/user_guide/installation.html#installation
 
 - Installing Python
@@ -86,7 +86,7 @@ https://docs.siliconcompiler.com/en/latest/user_guide/installation.html#installa
 
   After the python dependencies have installed, SiliconCompiler needed to be installed.
 
-### ASIC Demo
+### 7.2 ASIC Demo
 
   Now that SiliconCompiler has installed, the installation can be tested by running a quick demo through the ASIC design flow in the cloud.
 
@@ -123,7 +123,7 @@ This command generates the design files for the Verilog module Heartbeat. The de
   <img src="Images/heartbeat.png" alt="heartbeat" width="50%">
 </p>
 
-### FP-Posit Multiplication
+### 7.3 FP-Posit Multiplication
 
 Design flow - FP-Posit Multiplication
   <p align="center">
@@ -146,7 +146,7 @@ Chip Layout - FP-Posit Multiplication
   <img src="Images/fp_posit4_mul.png" alt="fp_posit4_mul" width="50%">
 </p>
 
-### FP-Posit Accumulator
+### 7.4 FP-Posit Accumulator
 
 Design flow - FP-Posit Accumulator
   <p align="center">
@@ -169,7 +169,7 @@ Chip Layout - FP-Posit Accumulator
   <img src="Images/fp_posit4_mul.png" alt="fp_posit4_mul" width="50%">
 </p>
 
-### FP-Posit MAC
+### 7.5 FP-Posit MAC
 
 Design flow - FP-Posit MAC
   <p align="center">
@@ -192,9 +192,9 @@ Chip Layout - FP-Posit MAC
   <img src="Images/fp_posit4_mac.png" alt="fp_posit4_mul" width="50%">
 </p>
 
-#### 6.6 Performance evaluation of MAC 
+#### 7.6 Performance evaluation of MAC 
 
-## 7. Key Takeaways
+## 8. Key Takeaways
 
 Why SiliconCompiler?
 
@@ -207,9 +207,9 @@ Provenance: Compilation manifests created automatically during execution.
 Documented: An extensive set of auto-generated high quality reference documents.
 In-use: Actively used by Zero ASIC for commercial tapeouts at advanced process nodes.
 
-## 8. Challenges
+## 9. Challenges
 Integrating the FP-Posit MAC unit within SiliconCompiler
 
-## 9.Conclusion
+## 10.Conclusion
 
-## 10. References
+## References
