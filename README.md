@@ -239,6 +239,12 @@ Power Density
   <img src="Images/typical.png" alt="typical" width="50%">
 </p>
 
+GDSII generation
+
+  <p align="center">
+  <img src="Images/fp_posit_mac.png" alt="fp_posit4_mul" width="50%">
+</p>
+
 
 ## 8. Key Takeaways
 
