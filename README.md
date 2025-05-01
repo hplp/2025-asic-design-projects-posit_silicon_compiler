@@ -208,7 +208,7 @@ Placement
 
 Routing
  <p align="center">
-  <img src="Images/fp_posit_mac.placement.png" alt="fp_posit_mac.placement" width="50%">
+  <img src="Images/fp_posit_mac.routing.png" alt="fp_posit_mac.placement" width="50%">
 </p>
 
 
