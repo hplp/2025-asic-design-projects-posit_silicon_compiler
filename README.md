@@ -220,18 +220,20 @@ Clocks
   <img src="Images/fp_posit_mac.clocks.png" alt="fp_posit_mac.clocks.png" width="45%" />
 </div>
 
-Routing
- <p align="center">
-  <img src="Images/fp_posit_mac.routing.png" alt="fp_posit_mac.placement" width="50%">
-</p>
-
-
 Timing
 
 <div style="display: flex; justify-content: center; align-items: center;">
   <img src="Images/hold.histogram.png" alt="Hold Histogram" width="45%" />
   <img src="Images/setup.histogram.png" alt="Setup Histogram" width="45%" />
 </div>
+
+
+Routing
+ <p align="center">
+  <img src="Images/fp_posit_mac.routing.png" alt="fp_posit_mac.placement" width="50%">
+</p>
+
+
 
 Power Density
 
