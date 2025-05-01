@@ -194,29 +194,31 @@ Chip Layout - FP-Posit MAC
 
 #### 7.6 Performance evaluation of MAC 
 
-Clocks
-
-<div style="display: flex; justify-content: center; align-items: center;">
-  <img src="Images/fp_posit_mac.clk.png" alt="fp_posit_mac.clk.png" width="45%" />
-  <img src="Images/fp_posit_mac.clocks.png" alt="fp_posit_mac.clocks.png" width="45%" />
-</div>
-
 
 Floor Plan
   <p align="center">
   <img src="Images/fp_posit_mac .floorplan.png" alt="floorplan.png" width="50%">
 </p>
 
+
 Power and Ground Planning
   <p align="center">
   <img src="Images/fp_posit_mac.powergrid.png" alt="fp_posit_mac.powergrid.png" width="50%">
 </p>
+
 
 Placement
   <p align="center">
   <img src="Images/fp_posit_mac.placement.png" alt="fp_posit_mac.placement" width="50%">
 </p>
 
+
+Clocks
+
+<div style="display: flex; justify-content: center; align-items: center;">
+  <img src="Images/fp_posit_mac.clk.png" alt="fp_posit_mac.clk.png" width="45%" />
+  <img src="Images/fp_posit_mac.clocks.png" alt="fp_posit_mac.clocks.png" width="45%" />
+</div>
 
 Routing
  <p align="center">
