@@ -166,7 +166,7 @@ Summary Report - FP-Posit Accumulator
 
 Chip Layout - FP-Posit Accumulator
   <p align="center">
-  <img src="Images/fp_posit4_mul.png" alt="fp_posit4_mul" width="50%">
+  <img src="Images/fp_posit4_acc.png" alt="fp_posit4_acc" width="50%">
 </p>
 
 ### 7.5 FP-Posit MAC
