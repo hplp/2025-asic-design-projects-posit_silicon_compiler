@@ -72,6 +72,11 @@ to compile the Verilog RTL design of FP16-Posit4 MAC to a GDS file.
 
 ## SiliconCompiler Integration
 
+    <p align="center">
+  <img src="Images/sc_logo_with_text.png" alt="sc_logo" width="80%">
+
+
+
 ### Installation 
 https://docs.siliconcompiler.com/en/latest/user_guide/installation.html#installation
 
