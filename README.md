@@ -214,9 +214,15 @@ Routing
 
 Timing
 
+<div style="display: flex; justify-content: center; align-items: center;">
+  <img src="Images/hold.histogram.png" alt="Hold Histogram" width="45%" />
+  <img src="Images/setup.histogram.png" alt="Setup Histogram" width="45%" />
+</div>
+
+Power Density
+
  <p align="center">
-  <img src="Images/hold.histogram.png" alt="hold.histogram" width="50%">
-  <img src="Images/setup.histogram.png" alt="setup.histogram" width="50%">
+  <img src="Images/typical.png" alt="typical" width="50%">
 </p>
 
 
