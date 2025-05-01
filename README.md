@@ -195,9 +195,11 @@ Chip Layout - FP-Posit MAC
 #### 7.6 Performance evaluation of MAC 
 
 Clocks
-  <p align="center">
-  <img src="Images/fp_posit_mac.clk.png" alt="fp_posit_mac.clk" width="50%">
-</p>
+
+<div style="display: flex; justify-content: center; align-items: center;">
+  <img src="Images/fp_posit_mac.clk.png" alt="fp_posit_mac.clk.png" width="45%" />
+  <img src="Images/fp_posit_mac.clocks.png" alt="fp_posit_mac.clocks.png" width="45%" />
+</div>
 
 
 Placement
