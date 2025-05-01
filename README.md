@@ -39,28 +39,36 @@ to compile the Verilog RTL design of FP16-Posit4 MAC to a GDS file.
 
 3. A manufacturable GDS file output, demonstrating the full digital design flow from high-level numerical representation to silicon-level layout.
 
-## 5. Results:
+## 5. Methods
 
-#### 5.1 Implementation and test the Posit4 multiplication module in Verilog 
+- Implement and test the Posit4 multiplication module in Verilog 
+- Implement and test the Posit4 Accumulator module in Verilog 
+- Integrate the multiplier and accumulator modules 
+- SiliconCompiler Integration and GDS Generation 
+- Performance evaluation of MAC 
+
+## 6. Results:
+
+#### 6.1 Implementation and test the Posit4 multiplication module in Verilog 
 - FP-Posit Multiplication Testbench Result (Implement and test the Posit4 multiplication module):
   <p align="center">
   <img src="Images/posit_mul.png" alt="fp_posit_mul" width="80%">
 </p>
 
-#### 5.2 Implementation and test the Posit4 Accumulator module in Verilog 
+#### 6.2 Implementation and test the Posit4 Accumulator module in Verilog 
 - FP-Posit Accumulator Testbench Result (Implement and test the Posit4 Accumulator module):
   <p align="center">
   <img src="Images/posit_acc.png" alt="fp_posit_acc" width="80%">
 </p>
 
-#### 5.3 Integration of the multiplier and accumulator modules 
+#### 6.3 Integration of the multiplier and accumulator modules 
 - FP-Posit MAC Testbench Result (Integrate the multiplier and accumulator modules):
 
     <p align="center">
   <img src="Images/posit_mac.png" alt="fp_posit_mac" width="80%">
 </p>
 
-#### 5.4 Integration of the SiliconCompiler and Generation of GDS Files
+#### 6.4 Integration of the SiliconCompiler and Generation of GDS Files
 
 ## SiliconCompiler Integration
 
@@ -157,13 +165,13 @@ Chip Layout - FP-Posit MAC
   <img src="Images/fp_posit4_mac.png" alt="fp_posit4_mul" width="50%">
 </p>
 
-#### 5.6 Performance evaluation of MAC 
+#### 6.6 Performance evaluation of MAC 
 
-## 6. Key Takeaways
+## 7. Key Takeaways
 
-## 7. Challenges
+## 8. Challenges
 Working on integrating the FP-Posit MAC unit within SiliconCompiler and developing appropriate constraint files for successful synthesis.
 
-## 8.Conclusion
+## 9.Conclusion
 
-## References
+## 10. References
