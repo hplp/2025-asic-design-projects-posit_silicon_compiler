@@ -72,9 +72,7 @@ to compile the Verilog RTL design of FP16-Posit4 MAC to a GDS file.
 
 ## SiliconCompiler Integration
 
-    <p align="center">
   <img src="Images/sc_logo_with_text.png" alt="sc_logo" width="80%">
-
 
 
 ### Installation 
@@ -198,6 +196,16 @@ Chip Layout - FP-Posit MAC
 
 ## 7. Key Takeaways
 
+Why SiliconCompiler?
+
+Ease-of-use: Programmable with a simple Python API
+Portability: Powerful dynamic JSON schema supports ASIC and FPGA design and simulation
+Speed: Flowgraph execution model enables cloud scale execution.
+Friction-less: Remote execution model enables "zero install" compilation
+Modularity: Tool abstraction layer makes it easy to add/port new tools to the project.
+Provenance: Compilation manifests created automatically during execution.
+Documented: An extensive set of auto-generated high quality reference documents.
+In-use: Actively used by Zero ASIC for commercial tapeouts at advanced process nodes.
 
 ## 8. Challenges
 Integrating the FP-Posit MAC unit within SiliconCompiler
