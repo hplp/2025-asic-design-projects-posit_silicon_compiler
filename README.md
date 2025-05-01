@@ -208,14 +208,14 @@ Why SiliconCompiler?
 
 ## 9. Challenges
 
-- RTL Compatibility
-Ensuring  FP-Posit MAC’s Verilog (with all its parameters and generate constructs) is correctly parsed and synthesized by Yosys without losing bit-width or precision metadata.
+- Verilog Compatibility
+Makeing sure the Verilog codes (including all custom settings) loads into Yosys correctly, so it doesn’t lose any signal sizes or precision.
 
-- Timing Constraints & Back-Annotation
-Writing accurate SDC entries for the MAC’s pipeline stages and generating SDF files so the STA step can correctly close timing at your target clock frequency.
+- Timing Setup
+Writing simple timing rules for each stage of the design and create delay files so the timing checker can confirm it meets your clock speed.
 
-- Debugging & Incremental Builds
-Diagnosing failures in remote vs. local runs (e.g. missing file paths, environment variables), and managing SiliconCompiler’s caching so that small RTL tweaks re-execute only the necessary stages.
+- Debugging & Fast Rebuilds
+Tracking down errors that only happen in one setup (like wrong file paths or missing settings), and use SiliconCompiler’s cache so only the parts you changed get rebuilt.
 
 ## 10.Conclusion
 
