@@ -194,6 +194,32 @@ Chip Layout - FP-Posit MAC
 
 #### 7.6 Performance evaluation of MAC 
 
+Clocks
+  <p align="center">
+  <img src="Images/fp_posit_mac.clk.png" alt="fp_posit_mac.clk" width="50%">
+</p>
+
+
+Placement
+  <p align="center">
+  <img src="Images/fp_posit_mac.placement.png" alt="fp_posit_mac.placement" width="50%">
+</p>
+
+
+Routing
+ <p align="center">
+  <img src="Images/fp_posit_mac.placement.png" alt="fp_posit_mac.placement" width="50%">
+</p>
+
+
+Timing
+
+ <p align="center">
+  <img src="Images/hold.histogram.png" alt="hold.histogram" width="50%">
+  <img src="Images/setup.histogram.png" alt="setup.histogram" width="50%">
+</p>
+
+
 ## 8. Key Takeaways
 
 Why SiliconCompiler?
