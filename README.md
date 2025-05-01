@@ -189,7 +189,7 @@ Summary Report - FP-Posit MAC
 
 Chip Layout - FP-Posit MAC
   <p align="center">
-  <img src="Images/fp_posit4_mac.png" alt="fp_posit4_mul" width="50%">
+  <img src="Images/fp_posit_mac.png" alt="fp_posit4_mul" width="50%">
 </p>
 
 #### 7.6 Performance evaluation of MAC 
