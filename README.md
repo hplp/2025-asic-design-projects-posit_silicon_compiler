@@ -202,6 +202,12 @@ Clocks
 </div>
 
 
+Floor Plan
+  <p align="center">
+  <img src="Images/fp_posit_mac.floorplan.png" alt="fp_posit_mac.placement" width="50%">
+</p>
+
+
 Placement
   <p align="center">
   <img src="Images/fp_posit_mac.placement.png" alt="fp_posit_mac.placement" width="50%">
