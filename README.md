@@ -90,7 +90,31 @@ https://docs.siliconcompiler.com/en/latest/user_guide/installation.html#installa
 ```bash
 sc -target asic_demo -remote
 ```
-This command generates the design files for the Verilog module Heartbeat.
+This command generates the design files for the Verilog module Heartbeat. The design flow involves following steps;
+
+1.  Import RTL
+2.  Synthesis
+3.  Floorplan
+•	init
+•	tapcell insertion
+•	power‐grid routing
+•	pin placement
+4.  Placement
+•	global placement
+•	repair (legalization)
+•	detailed placement
+5.  Clock‐Tree Synthesis (CTS)
+•	clock‐tree construction
+•	timing‐repair (buffer/inverter insertion)
+•	filler‐cell insertion
+6.  Routing
+•	global routing
+•	antenna‐rule repair
+•	detailed routing
+7.  Final Write‐out
+•	GDSII generation
+•	view files (DEF/LEF, reports, etc.)
+
 
   <p align="center">
   <img src="Images/heartbeat.png" alt="heartbeat" width="50%">
