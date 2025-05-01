@@ -193,8 +193,9 @@ Chip Layout - FP-Posit MAC
 
 ## 7. Key Takeaways
 
+
 ## 8. Challenges
-Working on integrating the FP-Posit MAC unit within SiliconCompiler and developing appropriate constraint files for successful synthesis.
+Integrating the FP-Posit MAC unit within SiliconCompiler
 
 ## 9.Conclusion
 
