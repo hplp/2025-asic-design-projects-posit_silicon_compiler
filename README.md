@@ -219,4 +219,10 @@ Tracking down errors that only happen in one setup (like wrong file paths or mis
 
 ## 10.Conclusion
 
+This project focused on designing and implementing a Multiply-Accumulate (MAC) operation using SiliconCompiler. SiliconCompiler, an open-source framework, automates the translation from source code to silicon. Our goal was to utilize SiliconCompiler to compile the Verilog RTL design of the FP16-Posit4 MAC into a GDS file.
+
+In conclusion, SiliconCompiler proves to be a powerful tool for automating the translation from source code to silicon. By leveraging this open-source framework, we successfully compiled the Verilog RTL design of the FP16-Posit4 MAC into a GDS file. This process not only streamlined the design workflow but also demonstrated the efficiency and effectiveness of SiliconCompiler in handling complex digital design tasks. The use of SiliconCompiler significantly enhances productivity and ensures a seamless transition from design to implementation.
 ## References
+
+[1] [SiliconCompiler](https://www.siliconcompiler.com/)
+
