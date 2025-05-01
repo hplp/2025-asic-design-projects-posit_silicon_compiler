@@ -204,9 +204,13 @@ Clocks
 
 Floor Plan
   <p align="center">
-  <img src="Images/fp_posit_mac .floorplan.png" alt="fp_posit_mac.placement" width="50%">
+  <img src="Images/fp_posit_mac .floorplan.png" alt="floorplan.png" width="50%">
 </p>
 
+Power and Ground Planning
+  <p align="center">
+  <img src="Images/fp_posit_mac.powergrid.png" alt="fp_posit_mac.powergrid.png" width="50%">
+</p>
 
 Placement
   <p align="center">
