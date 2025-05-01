@@ -68,7 +68,7 @@ to compile the Verilog RTL design of FP16-Posit4 MAC to a GDS file.
   <img src="Images/posit_mac.png" alt="fp_posit_mac" width="80%">
 </p>
 
-### 6.4 Integration of the SiliconCompiler and Generation of GDS Files
+
 
 ## 7. SiliconCompiler Integration
 
@@ -198,17 +198,24 @@ Chip Layout - FP-Posit MAC
 
 Why SiliconCompiler?
 
-Ease-of-use: Programmable with a simple Python API
-Portability: Powerful dynamic JSON schema supports ASIC and FPGA design and simulation
-Speed: Flowgraph execution model enables cloud scale execution.
-Friction-less: Remote execution model enables "zero install" compilation
-Modularity: Tool abstraction layer makes it easy to add/port new tools to the project.
-Provenance: Compilation manifests created automatically during execution.
-Documented: An extensive set of auto-generated high quality reference documents.
-In-use: Actively used by Zero ASIC for commercial tapeouts at advanced process nodes.
+- Ease-of-use: Programmable with a simple Python API
+- Portability: Powerful dynamic JSON schema supports ASIC and FPGA design and simulation
+- Speed: Flowgraph execution model enables cloud scale execution.
+- Friction-less: Remote execution model enables "zero install" compilation
+- Modularity: Tool abstraction layer makes it easy to add/port new tools to the project.
+- Provenance: Compilation manifests created automatically during execution.
+- Documented: An extensive set of auto-generated high quality reference documents.
 
 ## 9. Challenges
-Integrating the FP-Posit MAC unit within SiliconCompiler
+
+- RTL Compatibility
+Ensuring  FP-Posit MAC’s Verilog (with all its parameters and generate constructs) is correctly parsed and synthesized by Yosys without losing bit-width or precision metadata.
+
+- Timing Constraints & Back-Annotation
+Writing accurate SDC entries for the MAC’s pipeline stages and generating SDF files so the STA step can correctly close timing at your target clock frequency.
+
+- Debugging & Incremental Builds
+Diagnosing failures in remote vs. local runs (e.g. missing file paths, environment variables), and managing SiliconCompiler’s caching so that small RTL tweaks re-execute only the necessary stages.
 
 ## 10.Conclusion
 
