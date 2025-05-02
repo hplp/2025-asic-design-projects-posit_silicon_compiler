@@ -133,7 +133,7 @@ Design flow - FP-Posit Multiplication
 Summary Report - FP-Posit Multiplication
 
 <p align="center">
-  <img src="Images/Summary1_mul.png" alt="Summary" width="49%"><img src="Images/Summary2_mul.png" alt="Summary" width="49%">
+  <img src="Images/Summary1_mul.png" alt="Summary" width="80%"><img src="Images/Summary2_mul.png" alt="Summary" width="80%">
 </p>
 
 
@@ -151,10 +151,10 @@ Design flow - FP-Posit Accumulator
 
 Summary Report - FP-Posit Accumulator
 
-  <p align="center">
-  <img src="Images/Summary1_acc.png" alt="Summary" width="80%">
-  <img src="Images/Summary2_acc.png" alt="Summary1_mul.png" width="80%">
+<p align="center">
+  <img src="Images/Summary1_acc.png" alt="Summary" width="80%"><img src="Images/Summary2_acc.png" alt="Summary" width="80%">
 </p>
+
 
 
 Chip Layout - FP-Posit Accumulator
@@ -172,7 +172,7 @@ Design flow - FP-Posit MAC
 Summary Report - FP-Posit MAC
 
 <p align="center">
-  <img src="Images/Summary1_mac.png" alt="Summary" width="49%"><img src="Images/Summary2_mac.png" alt="Summary" width="49%">
+  <img src="Images/Summary1_mac.png" alt="Summary" width="80%"><img src="Images/Summary2_mac.png" alt="Summary" width="80%">
 </p>
 
 
