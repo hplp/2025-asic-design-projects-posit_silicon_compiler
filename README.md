@@ -132,12 +132,8 @@ Design flow - FP-Posit Multiplication
 
 Summary Report - FP-Posit Multiplication
 
-  <p align="center">
-  <img src="Images/Summary1_mul.png" alt="Summary" width="80%">
-</p>
-
-  <p align="center">
-  <img src="Images/Summary2_mul.png" alt="Summary1_mul.png" width="80%">
+<p align="center">
+  <img src="Images/Summary1_mul.png" alt="Summary" width="49%"><img src="Images/Summary2_mul.png" alt="Summary" width="49%">
 </p>
 
 
@@ -175,12 +171,8 @@ Design flow - FP-Posit MAC
 
 Summary Report - FP-Posit MAC
 
-  <p align="center">
-  <img src="Images/Summary1_mac.png" alt="Summary" width="80%">
-</p>
-
-  <p align="center">
-  <img src="Images/Summary2_mac.png" alt="Summary1_mul.png" width="80%">
+<p align="center">
+  <img src="Images/Summary1_mac.png" alt="Summary" width="49%"><img src="Images/Summary2_mac.png" alt="Summary" width="49%">
 </p>
 
 
