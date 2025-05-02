@@ -236,7 +236,8 @@ GDSII generation
   <img src="Images/fp_posit_mac.png" alt="fp_posit4_mul" width="50%">
 </p>
 
-[Watch the demo video]([myvideo.mp4](https://myuva-my.sharepoint.com/:v:/g/personal/uyq6nu_virginia_edu/EUrEXopo-11LhvKPCUpOJf8BFL82Wty9AOR7l5IHRvMYqQ?e=7pS4O1))
+[▶️ Watch the demo video on OneDrive](https://myuva-my.sharepoint.com/:v:/g/personal/uyq6nu_virginia_edu/EUrEXopo-11LhvKPCUpOJf8BFL82Wty9AOR7l5IHRvMYqQ?e=t8cr6X)
+
 
 ## 8. Key Takeaways
 
