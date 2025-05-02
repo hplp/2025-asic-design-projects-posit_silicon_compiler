@@ -157,9 +157,6 @@ Summary Report - FP-Posit Accumulator
 
   <p align="center">
   <img src="Images/Summary1_acc.png" alt="Summary" width="80%">
-</p>
-
-  <p align="center">
   <img src="Images/Summary2_acc.png" alt="Summary1_mul.png" width="80%">
 </p>
 
