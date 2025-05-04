@@ -118,7 +118,7 @@ $ sc heartbeat.v -remote
 
 ```
 
-For designs that are too complex to be compiled at the command line, development should be like programming in Python:.
+For designs that are too complex to be compiled at the command line, development should be like programming in Python:
 ```bash
 import siliconcompiler
 chip = siliconcompiler.Chip('heartbeat')
