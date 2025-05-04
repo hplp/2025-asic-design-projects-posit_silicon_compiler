@@ -86,7 +86,23 @@ https://docs.siliconcompiler.com/en/latest/user_guide/installation.html#installa
 
   After the python dependencies have installed, SiliconCompiler needed to be installed.
 
-### 7.2 ASIC Demo
+### 7.2 Archeteture 
+
+#### Standardized Schema​
+A single, extensible data model that cleanly separates design descriptions, EDA tools, and Process Design Kits (PDKs), making complex flows configurable yet easy to grasp.​
+​
+#### Python API & Flowgraph​
+An object-oriented Python layer exposes simple set/get access to the schema, a parallel “flowgraph” programming model, and utility functions for setting up runs and collecting metrics.​
+​
+#### Pluggable Drivers​
+Tool- and PDK-specific drivers plug into the core schema at runtime, automatically discovered via a dynamic module search​
+​
+#### Scalable & Extendable​
+The combination of a rich schema, well-defined plugin interfaces, and comprehensive reference docs lets teams rapidly onboard new tools and PDKs without rewriting core code.
+
+<img src="Images/Archeteture" alt="sc_logo" width="80%">
+
+### 7.3 ASIC Demo
 
   Now that SiliconCompiler has installed, the installation can be tested by running a quick demo through the ASIC design flow in the cloud.
 
