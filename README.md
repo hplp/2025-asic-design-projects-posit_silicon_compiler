@@ -86,7 +86,7 @@ https://docs.siliconcompiler.com/en/latest/user_guide/installation.html#installa
 
   After the python dependencies have installed, SiliconCompiler needed to be installed.
 
-### 7.2 Archeteture 
+### 7.2 Architeture 
 
 #### Standardized Schema​
 A single, extensible data model that cleanly separates design descriptions, EDA tools, and Process Design Kits (PDKs), making complex flows configurable yet easy to grasp.​
@@ -100,7 +100,7 @@ Tool- and PDK-specific drivers plug into the core schema at runtime, automatical
 #### Scalable & Extendable​
 The combination of a rich schema, well-defined plugin interfaces, and comprehensive reference docs lets teams rapidly onboard new tools and PDKs without rewriting core code.
 
-<img src="Images/Archeteture.png" alt="sc_logo" width="80%">
+<img src="Images/Architeture.png" alt="sc_logo" width="80%">
 
 ### 7.3 ASIC Demo
 
