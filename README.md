@@ -142,6 +142,7 @@ This command generates the design files for the Verilog module Heartbeat. The de
 
 ### 7.5 FP-Posit Multiplication
 
+Command line execution
 ```bash
 $ pip install siliconcompiler
 $ sc fp_posit4_mul.v -remote
@@ -167,6 +168,7 @@ Chip Layout - FP-Posit Multiplication
 
 ### 7.6 FP-Posit Accumulator
 
+Command line execution
 ```bash
 $ pip install siliconcompiler
 $ sc fp_posit4_acc.v -remote
@@ -193,11 +195,14 @@ Chip Layout - FP-Posit Accumulator
 
 ### 7.7 FP-Posit MAC
 
+Command line execution
 ```bash
 $ pip install siliconcompiler
 $ sc fp_posit_mac.v fp_posit_mac.sdc -remote
 
 ```
+
+Python Execution
 ```bash
 from siliconcompiler import Chip
 from siliconcompiler.targets import skywater130_demo
@@ -309,7 +314,7 @@ GDSII generation
 | **End-to-End Runtime**           | ~5 min (full OpenLane flow)         | ~10 min initial, ~2 min for incremental rebuilds     |
 | **Incremental Rebuild Time**     | Full rerun (~5 min)                 | Cached stages → ~1–2 min                             |
 | **Design Flow**             | Web-based, template-driven, simplified process                 | Automated RTL-to-GDSII with full P&R, DRC, LVS, etc.|                                 |
-| **Worst-Case Slack (WNS)**       | Small digital designs               | Small to very large, complex SoCs and ASICs          |                      
+| **Supported Complexity**       | Small digital designs               | Small to very large, complex SoCs and ASICs          |                      
 | **Scalability & Parallelism**    | Single-machine only                 | Built-in remote/cluster support                      |
 
 
