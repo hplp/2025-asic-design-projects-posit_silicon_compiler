@@ -105,29 +105,8 @@ The combination of a rich schema, well-defined plugin interfaces, and comprehens
 
 ### 7.3 Design Flow 
 
-<img src="Images/Design_flow.png" alt="Design_flow" width="80%">
-1.  Import RTL
-2.  Synthesis
-3.  Floorplan
-•	init
-•	tapcell insertion
-•	power‐grid routing
-•	pin placement
-4.  Placement
-•	global placement
-•	repair (legalization)
-•	detailed placement
-5.  Clock‐Tree Synthesis (CTS)
-•	clock‐tree construction
-•	timing‐repair (buffer/inverter insertion)
-•	filler‐cell insertion
-6.  Routing
-•	global routing
-•	antenna‐rule repair
-•	detailed routing
-7.  Final Write‐out
-•	GDSII generation
-•	view files (DEF/LEF, reports, etc.)
+<img src="Images/Design_flow.png" alt="Design_flow" width="50%">
+
 
 
 ### 7.4 ASIC Demo
@@ -149,7 +128,7 @@ This command generates the design files for the Verilog module Heartbeat. The de
 
 Design flow - FP-Posit Multiplication
   <p align="center">
-  <img src="Images/design_flow_mul.png" alt="design_flow" width="50%">
+  <img src="Images/design_flow_mul.png" alt="design_flow" width="80%">
 </p>
 
 Summary Report - FP-Posit Multiplication
