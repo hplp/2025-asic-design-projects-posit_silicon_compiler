@@ -100,7 +100,7 @@ Tool- and PDK-specific drivers plug into the core schema at runtime, automatical
 #### Scalable & Extendable​
 The combination of a rich schema, well-defined plugin interfaces, and comprehensive reference docs lets teams rapidly onboard new tools and PDKs without rewriting core code.
 
-<img src="Images/Archeteture" alt="sc_logo" width="80%">
+<img src="Images/Archeteture.png" alt="sc_logo" width="80%">
 
 ### 7.3 ASIC Demo
 
