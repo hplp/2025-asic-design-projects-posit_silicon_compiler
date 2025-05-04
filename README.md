@@ -198,7 +198,7 @@ Chip Layout - FP-Posit MAC
   <img src="Images/fp_posit_mac.png" alt="fp_posit4_mul" width="50%">
 </p>
 
-#### 7.8 Performance evaluation of MAC 
+####  Intermediate Files for the MAC Design Flow
 
 
 Floor Plan
@@ -254,6 +254,16 @@ GDSII generation
 </p>
 
 [▶️ Watch the demo video on OneDrive](https://myuva-my.sharepoint.com/:v:/g/personal/uyq6nu_virginia_edu/EUrEXopo-11LhvKPCUpOJf8BFL82Wty9AOR7l5IHRvMYqQ?e=t8cr6X)
+
+####  7.8 Performace Eveluation of Silicon Compiler
+
+| Metric                           | TinyTapeout                         | SiliconCompiler                                      |
+|----------------------------------|-------------------------------------|------------------------------------------------------|
+| **End-to-End Runtime**           | ~5 min (full OpenLane flow)         | ~10 min initial, ~2 min for incremental rebuilds     |
+| **Incremental Rebuild Time**     | Full rerun (~5 min)                 | Cached stages → ~1–2 min                             |
+| **Area Utilization**             | ≈ 85 % core density                 | ≈ 85 % core density                                  |
+| **Worst-Case Slack (WNS)**       | ~+0.1 ns                            | ~+0.1 ns                                             |
+| **Scalability & Parallelism**    | Single-machine only                 | Built-in remote/cluster support                      |
 
 
 ## 8. Key Takeaways
