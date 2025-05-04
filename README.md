@@ -102,15 +102,10 @@ The combination of a rich schema, well-defined plugin interfaces, and comprehens
 
 <img src="Images/Architecture.png" alt="sc_logo" width="80%">
 
-### 7.3 ASIC Demo
 
-  Now that SiliconCompiler has installed, the installation can be tested by running a quick demo through the ASIC design flow in the cloud.
+### 7.3 Design Flow 
 
-```bash
-sc -target asic_demo -remote
-```
-This command generates the design files for the Verilog module Heartbeat. The design flow involves following steps;
-
+<img src="Images/Design_flow.png" alt="Design_flow" width="80%">
 1.  Import RTL
 2.  Synthesis
 3.  Floorplan
@@ -135,11 +130,22 @@ This command generates the design files for the Verilog module Heartbeat. The de
 •	view files (DEF/LEF, reports, etc.)
 
 
+### 7.4 ASIC Demo
+
+  Now that SiliconCompiler has installed, the installation can be tested by running a quick demo through the ASIC design flow in the cloud.
+
+```bash
+sc -target asic_demo -remote
+```
+This command generates the design files for the Verilog module Heartbeat. The design flow involves following steps;
+
+
+
   <p align="center">
   <img src="Images/heartbeat.png" alt="heartbeat" width="50%">
 </p>
 
-### 7.3 FP-Posit Multiplication
+### 7.5 FP-Posit Multiplication
 
 Design flow - FP-Posit Multiplication
   <p align="center">
@@ -158,7 +164,7 @@ Chip Layout - FP-Posit Multiplication
   <img src="Images/fp_posit4_mul.png" alt="fp_posit4_mul" width="50%">
 </p>
 
-### 7.4 FP-Posit Accumulator
+### 7.6 FP-Posit Accumulator
 
 Design flow - FP-Posit Accumulator
   <p align="center">
@@ -178,7 +184,7 @@ Chip Layout - FP-Posit Accumulator
   <img src="Images/fp_posit4_acc.png" alt="fp_posit4_acc" width="50%">
 </p>
 
-### 7.5 FP-Posit MAC
+### 7.7 FP-Posit MAC
 
 Design flow - FP-Posit MAC
   <p align="center">
@@ -197,7 +203,7 @@ Chip Layout - FP-Posit MAC
   <img src="Images/fp_posit_mac.png" alt="fp_posit4_mul" width="50%">
 </p>
 
-#### 7.6 Performance evaluation of MAC 
+#### 7.8 Performance evaluation of MAC 
 
 
 Floor Plan
