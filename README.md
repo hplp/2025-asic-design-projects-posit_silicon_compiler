@@ -100,12 +100,12 @@ Tool- and PDK-specific drivers plug into the core schema at runtime, automatical
 #### Scalable & Extendable​
 The combination of a rich schema, well-defined plugin interfaces, and comprehensive reference docs lets teams rapidly onboard new tools and PDKs without rewriting core code.
 
-<img src="Images/Architecture.png" alt="sc_logo" width="80%">
+<img src="Images/Architecture.png" alt="sc_logo" width="50%">
 
 
 ### 7.3 Design Flow 
 
-<img src="Images/Design_flow.png" alt="Design_flow" width="50%">
+<img src="Images/Design_flow.png" alt="Design_flow" width="40%">
 
 
 
