@@ -142,6 +142,12 @@ This command generates the design files for the Verilog module Heartbeat. The de
 
 ### 7.5 FP-Posit Multiplication
 
+```bash
+$ pip install siliconcompiler
+$ sc fp_posit4_mul.v -remote
+
+```
+
 Design flow - FP-Posit Multiplication
   <p align="center">
   <img src="Images/design_flow_mul.png" alt="design_flow" width="80%">
@@ -160,6 +166,12 @@ Chip Layout - FP-Posit Multiplication
 </p>
 
 ### 7.6 FP-Posit Accumulator
+
+```bash
+$ pip install siliconcompiler
+$ sc fp_posit4_acc.v -remote
+
+```
 
 Design flow - FP-Posit Accumulator
   <p align="center">
@@ -180,6 +192,41 @@ Chip Layout - FP-Posit Accumulator
 </p>
 
 ### 7.7 FP-Posit MAC
+
+```bash
+$ pip install siliconcompiler
+$ sc fp_posit_mac.v fp_posit_mac.sdc -remote
+
+```
+```bash
+from siliconcompiler import Chip
+from siliconcompiler.targets import skywater130_demo
+
+if __name__ == "__main__":
+    # 1) Create your chip object
+    chip = Chip('fp_posit_mac')
+
+    # 2) Add RTL source and SDC constraint file
+    chip.input('fp_posit_mac.v')      # Verilog RTL
+    chip.input('fp_posit_mac.sdc')    # Timing constraints
+
+    # 3) Define your clock
+    chip.clock('clk', period=10)      # 100 MHz target
+
+    # 4) Tell SC which SDC to use
+    chip.set('constraint', 'sdc', 'fp_posit_mac.sdc')
+
+    # 5) Select PDK & flow recipe
+    chip.use(skywater130_demo)
+
+    # 6) (Optional) run remotely
+    chip.set('option', 'remote', True)
+
+    # 7) Execute the flow and print a summary
+    chip.run()
+    chip.summary()
+```
+  
 
 Design flow - FP-Posit MAC
   <p align="center">
@@ -261,8 +308,8 @@ GDSII generation
 |----------------------------------|-------------------------------------|------------------------------------------------------|
 | **End-to-End Runtime**           | ~5 min (full OpenLane flow)         | ~10 min initial, ~2 min for incremental rebuilds     |
 | **Incremental Rebuild Time**     | Full rerun (~5 min)                 | Cached stages → ~1–2 min                             |
-| **Area Utilization**             | ≈ 85 % core density                 | ≈ 85 % core density                                  |
-| **Worst-Case Slack (WNS)**       | ~+0.1 ns                            | ~+0.1 ns                                             |
+| **Design Flow**             | Web-based, template-driven, simplified process                 | Automated RTL-to-GDSII with full P&R, DRC, LVS, etc.|                                 |
+| **Worst-Case Slack (WNS)**       | Small digital designs               | Small to very large, complex SoCs and ASICs          |                      
 | **Scalability & Parallelism**    | Single-machine only                 | Built-in remote/cluster support                      |
 
 
