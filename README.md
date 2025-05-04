@@ -113,8 +113,25 @@ The combination of a rich schema, well-defined plugin interfaces, and comprehens
   Now that SiliconCompiler has installed, the installation can be tested by running a quick demo through the ASIC design flow in the cloud.
 
 ```bash
-sc -target asic_demo -remote
+$ pip install siliconcompiler
+$ sc heartbeat.v -remote
+
 ```
+
+For designs that are too complex to be compiled at the command line, development should be like programming in Python:.
+```bash
+import siliconcompiler
+chip = siliconcompiler.Chip('heartbeat')
+chip.load_target('skywater130_demo')
+chip.input('heartbeat.v')
+chip.clock('clk', period=10)
+chip.set('option','remote', True)
+chip.run()
+chip.summary()
+chip.show()
+
+```
+
 This command generates the design files for the Verilog module Heartbeat. The design flow involves following steps;
 
 
